@@ -200,6 +200,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -216,6 +217,32 @@
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\IDK.png" />
+    <Content Include="Content\images\BioVloerbrood.jpg" />
+    <Content Include="Content\images\Blueband Brood.jpg" />
+    <Content Include="Content\images\Boulogne Meergranen.jpg" />
+    <Content Include="Content\images\Bruin brood.jpg" />
+    <Content Include="Content\images\Bruinbrood Zaans.jpg" />
+    <Content Include="Content\images\Casino Volkoren.jpg" />
+    <Content Include="Content\images\Casino Wit.jpg" />
+    <Content Include="Content\images\Geniusbruin.jpg" />
+    <Content Include="Content\images\Geniusmeerzaden.jpg" />
+    <Content Include="Content\images\Geniusrozijnen.jpg" />
+    <Content Include="Content\images\img1.jpg" />
+    <Content Include="Content\images\img2.jpg" />
+    <Content Include="Content\images\img3.jpg" />
+    <Content Include="Content\images\MaisBrood.jpg" />
+    <Content Include="Content\images\Muslinoten brood.jpg" />
+    <Content Include="Content\images\Speltbrood.jpg" />
+    <Content Include="Content\images\Tijger bruin.jpg" />
+    <Content Include="Content\images\Tijger Volkoren.jpg" />
+    <Content Include="Content\images\Tijger wit.jpg" />
+    <Content Include="Content\images\Vloerbrood bruin.jpg" />
+    <Content Include="Content\images\Vloerbrood Volkoren.jpg" />
+    <Content Include="Content\images\Vloerbrood wit.jpg" />
+    <Content Include="Content\images\Volkorenbrood.jpeg" />
+    <Content Include="Content\images\Waldkorn.jpg" />
+    <Content Include="Content\images\Zaans wit.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -300,10 +327,10 @@
     <Content Include="Scripts\popper.js.map" />
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
+    <Content Include="Views\Home\Brood.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\images\" />
     <Folder Include="Views\Products\" />
   </ItemGroup>
   <ItemGroup>

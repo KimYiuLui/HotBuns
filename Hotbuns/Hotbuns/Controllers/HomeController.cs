@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Hotbuns.Controllers;
 
 namespace Hotbuns.Controllers
 {
@@ -26,5 +27,13 @@ namespace Hotbuns.Controllers
 
             return View();
         }
+
+        public ActionResult Brood()
+        {
+            ViewBag.Message = "Product category Brood";
+
+            return View();
+        }
+
     }
 }

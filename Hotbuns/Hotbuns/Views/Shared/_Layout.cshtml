@@ -24,16 +24,16 @@
                 <div class="mx-auto">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item mx-auto">
-                            <a >@Html.ActionLink("Brood", "About", "Home", new {@class = "nav-link" })</a>
+                            <a >@Html.ActionLink("Brood", "Brood", "Products", new {@class = "nav-link" })</a>
                         </li>
                         <li class="nav-item mx-auto">
-                            <a>@Html.ActionLink("Koek", "Contact", "Home", new { @class = "nav-link"})</a>
+                            <a>@Html.ActionLink("Koek", "Brood", "Products", new { @class = "nav-link"})</a>
                         </li>
                         <li class="nav-item mx-auto">
-                            <a>@Html.ActionLink("Zoetigheid", "Contact", "Home", new { @class = "nav-link"})</a>
+                            <a>@Html.ActionLink("Zoetigheid", "Brood", "Products", new { @class = "nav-link"})</a>
                         </li>
                         <li class="nav-item mx-auto">
-                            <a>@Html.ActionLink("Over Ons", "Contact", "Home", new{@class="nav-link" })</a>
+                            <a>@Html.ActionLink("Over Ons", "About", "Home", new {@class="nav-link" })</a>
                         </li>
 
                     </ul>
@@ -41,7 +41,7 @@
                 <div class="ml-auto">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item mx-auto">
-                            <a>@Html.ActionLink(" ", "ShoppingCart", "Home", new { area = "ShopppingCart" }, new { @class = "fas fa-shopping-cart fa-2x nav-link" }) </a>
+                            <a>@Html.ActionLink(" ", "#", "#", new { area = "ShopppingCart" }, new { @class = "fas fa-shopping-cart fa-2x nav-link" }) </a>
                         </li>
                         @Html.Partial("_LoginPartial")
                     </ul>
@@ -55,11 +55,39 @@
     @* --Body-- *@
     <div class="">
         @RenderBody()
-        <hr />
+
 
         @*--Footer-- *@
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <div class="container">
+                <div class="row row-30">
+                    <div class="col-md-4 col-xl-5">
+                        <h5>Klantenservice</h5>
+                        <ul class="nav-list">
+                            <li ><a class="foot-link" href="#">Contact</a></li>
+                            <li ><a class="foot-link" href="#">Bestellen en leveren</a></li>
+                            <li ><a class="foot-link" href="#">Betalen</a></li>
+                            <li ><a class="foot-link" href="#">Retourneren</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>HotBuns</h5>
+                        <ul class="nav-list">
+                            <li ><a>@Html.ActionLink("Over Ons", "About", "Home", new { @class = "foot-link" })</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-xl-3">
+                        <h5>Voorwaarden en Beleid</h5>
+                        <ul class="nav-list">
+                            <li ><a class="foot-link" href="#">Algemene voorwaarden</a></li>
+                            <li ><a class="foot-link" href="#">Privacybeleid</a></li>
+                            <li ><a class="foot-link" href="#">Cookies</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr />
+                <p class="text-center">&copy; @DateTime.Now.Year - HotBuns</p>
+            </div>
         </footer>
     </div>
 
