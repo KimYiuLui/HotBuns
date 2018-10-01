@@ -14,6 +14,11 @@ namespace Hotbuns.Controllers
             return View();
         }
 
+        public ActionResult DetailPage()
+        {
+            return View();
+        }
+
         // GET: Products/Details/5
         public ActionResult Details(int id)
         {
