@@ -24,16 +24,20 @@
                 <div class="mx-auto">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item mx-auto">
-                            <a >@Html.ActionLink("Brood", "Brood", "Products", new {@class = "nav-link" })</a>
+                            @*linkText, actionName, controllerName, routeValues, htmlAttributes*@
+                            <a>@Html.ActionLink("Brood", "Brood", "Home", "Products", new { @class = "nav-link" })</a>
                         </li>
                         <li class="nav-item mx-auto">
-                            <a>@Html.ActionLink("Koek", "Brood", "Products", new { @class = "nav-link"})</a>
+                            @*linkText, actionName, controllerName, routeValues, htmlAttributes*@
+                            <a>@Html.ActionLink("Koek", "Brood", "Home", "Products", new { @class = "nav-link" })</a>
                         </li>
                         <li class="nav-item mx-auto">
-                            <a>@Html.ActionLink("Zoetigheid", "Brood", "Products", new { @class = "nav-link"})</a>
+                            @*linkText, actionName, controllerName, routeValues, htmlAttributes*@
+                            <a>@Html.ActionLink("Zoetigheid", "Brood", "Home", "Products", new { @class = "nav-link" })</a>
                         </li>
                         <li class="nav-item mx-auto">
-                            <a>@Html.ActionLink("Over Ons", "About", "Home", new {@class="nav-link" })</a>
+                            @*linkText, actionName, controllerName, routeValues, htmlAttributes*@
+                            <a>@Html.ActionLink("Over Ons", "About", "Home", "Home", new { @class = "nav-link" })</a>
                         </li>
 
                     </ul>
