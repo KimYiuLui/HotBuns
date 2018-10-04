@@ -329,6 +329,9 @@
     <Content Include="Scripts\popper-utils.js.map" />
     <Content Include="Views\Products\Brood.cshtml" />
     <Content Include="Views\Products\Detailpage.cshtml" />
+    <Content Include="Views\Home\KlantenserviceRetours.cshtml" />
+    <Content Include="Views\Home\KlantenserviceBetalen.cshtml" />
+    <Content Include="Views\Home\KlantenserviceBestellen.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

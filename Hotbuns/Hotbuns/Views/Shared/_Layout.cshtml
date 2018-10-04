@@ -68,16 +68,16 @@
                     <div class="col-md-4 col-xl-5">
                         <h5>Klantenservice</h5>
                         <ul class="nav-list">
-                            <li ><a class="foot-link" href="#">Contact</a></li>
-                            <li ><a class="foot-link" href="#">Bestellen en leveren</a></li>
-                            <li ><a class="foot-link" href="#">Betalen</a></li>
-                            <li ><a class="foot-link" href="#">Retourneren</a></li>
+                            <li>@Html.ActionLink("Contact", "Contact", "Home", "Home", new { @class = "foot-link" })</li>
+                            <li>@Html.ActionLink("Bestellen en Leveren", "KlantenserviceBestellen", "Home", "Home", new { @class = "foot-link" })</li>
+                            <li>@Html.ActionLink("Betalen", "KlantenserviceBetalen", "Home", "Home", new { @class = "foot-link" })</li>
+                            <li>@Html.ActionLink("Retourneren", "KlantenserviceRetours", "Home", "Home", new { @class = "foot-link" })</li>
                         </ul>
                     </div>
                     <div class="col-md-4">
                         <h5>HotBuns</h5>
                         <ul class="nav-list">
-                            <li ><a>@Html.ActionLink("Over Ons", "About", "Home", new { @class = "foot-link" })</a></li>
+                            <li ><a>@Html.ActionLink("Over Ons", "About", "Home", "Home", new { @class = "foot-link" })</a></li>
                         </ul>
                     </div>
                     <div class="col-md-4 col-xl-3">
