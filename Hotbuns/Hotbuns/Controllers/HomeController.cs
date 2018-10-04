@@ -37,23 +37,9 @@ namespace Hotbuns.Controllers
 
         //// KLANTENSERVICE BELOW
 
-        public ActionResult KlantenserviceBetalen()
+        public ActionResult VeelgesteldeVragen()
         {
-            ViewBag.Message = "Betalen";
-
-            return View();
-        }
-
-        public ActionResult KlantenserviceRetours()
-        {
-            ViewBag.Message = "Retours";
-
-            return View();
-        }
-
-        public ActionResult KlantenserviceBestellen()
-        {
-            ViewBag.Message = "Bestellen";
+            ViewBag.Message = "Veelgesteld";
 
             return View();
         }
