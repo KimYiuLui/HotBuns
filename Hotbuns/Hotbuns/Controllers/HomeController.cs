@@ -61,5 +61,16 @@ namespace Hotbuns.Controllers
         {
             return View();
         }
+
+        //// KLANTENSERVICE BELOW
+
+        public ActionResult VeelgesteldeVragen()
+        {
+            ViewBag.Message = "Veelgesteld";
+
+            return View();
+        }
+
+
     }
 }

@@ -335,6 +335,7 @@
     <Content Include="Views\Home\TermsAndCondition.cshtml" />
     <Content Include="Views\Home\PrivacyPolicy.cshtml" />
     <Content Include="Views\Home\Cookies.cshtml" />
+    <Content Include="Views\Home\VeelgesteldeVragen.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
