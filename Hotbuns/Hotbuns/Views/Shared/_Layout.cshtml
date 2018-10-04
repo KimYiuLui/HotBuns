@@ -68,24 +68,24 @@
                     <div class="col-md-4 col-xl-5">
                         <h5>Klantenservice</h5>
                         <ul class="nav-list">
-                            <li ><a class="foot-link" href="#">Contact</a></li>
-                            <li ><a class="foot-link" href="#">Bestellen en leveren</a></li>
-                            <li ><a class="foot-link" href="#">Betalen</a></li>
-                            <li ><a class="foot-link" href="#">Retourneren</a></li>
+                            <li><a>@Html.ActionLink("Contact", "Contact", "Home", "Home", new { @class = "foot-link" })</a></li>
+                            <li><a>@Html.ActionLink("Bestellen en leveren", "OrderAndDelivery", "Home", "Home", new { @class = "foot-link" })</a></li>
+                            <li><a>@Html.ActionLink("Betalen", "Payment", "Home", "Home", new { @class = "foot-link" })</a></li>
+                            <li><a>@Html.ActionLink("Retourneren", "ReturnPolicy", "Home", "Home", new { @class = "foot-link" })</a></li>
                         </ul>
                     </div>
                     <div class="col-md-4">
                         <h5>HotBuns</h5>
                         <ul class="nav-list">
-                            <li ><a>@Html.ActionLink("Over Ons", "About", "Home", new { @class = "foot-link" })</a></li>
+                            <li ><a>@Html.ActionLink("Over Ons", "About", "Home", "Home", new { @class = "foot-link" })</a></li>
                         </ul>
                     </div>
                     <div class="col-md-4 col-xl-3">
                         <h5>Voorwaarden en Beleid</h5>
                         <ul class="nav-list">
-                            <li ><a class="foot-link" href="#">Algemene voorwaarden</a></li>
-                            <li ><a class="foot-link" href="#">Privacybeleid</a></li>
-                            <li ><a class="foot-link" href="#">Cookies</a></li>
+                            <li><a>@Html.ActionLink("Algemene voorwaarden", "TermsAndCondition", "Home", "Home", new { @class = "foot-link" })</a></li>
+                            <li><a>@Html.ActionLink("Privacybeleid", "PrivacyPolicy", "Home", "Home", new { @class = "foot-link" })</a></li>
+                            <li><a>@Html.ActionLink("Cookies", "Cookies", "Home", "Home", new { @class = "foot-link" })</a></li>
                         </ul>
                     </div>
                 </div>

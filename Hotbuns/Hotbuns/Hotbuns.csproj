@@ -329,9 +329,16 @@
     <Content Include="Scripts\popper-utils.js.map" />
     <Content Include="Views\Products\Brood.cshtml" />
     <Content Include="Views\Products\Detailpage.cshtml" />
+    <Content Include="Views\Home\OrderAndDelivery.cshtml" />
+    <Content Include="Views\Home\Payment.cshtml" />
+    <Content Include="Views\Home\ReturnPolicy.cshtml" />
+    <Content Include="Views\Home\TermsAndCondition.cshtml" />
+    <Content Include="Views\Home\PrivacyPolicy.cshtml" />
+    <Content Include="Views\Home\Cookies.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Orders\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -28,12 +28,38 @@ namespace Hotbuns.Controllers
             return View();
         }
 
-        public ActionResult Brood()
+        public ActionResult Cookies()
         {
-            ViewBag.Message = "Product category Brood";
-
             return View();
         }
 
+        public ActionResult OrderAndDelivery()
+        {
+            return View();
+        }
+
+
+        public ActionResult Payment()
+        {
+            return View();
+        }
+
+
+        public ActionResult PrivacyPolicy()
+        {
+            return View();
+        }
+
+
+        public ActionResult ReturnPolicy()
+        {
+            return View();
+        }
+
+
+        public ActionResult TermsAndCondition()
+        {
+            return View();
+        }
     }
 }
