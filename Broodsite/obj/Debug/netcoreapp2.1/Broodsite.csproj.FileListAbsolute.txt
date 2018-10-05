@@ -1,0 +1,11 @@
+C:\Users\Remmy\Desktop\Broodsite\bin\Debug\netcoreapp2.1\Broodsite.deps.json
+C:\Users\Remmy\Desktop\Broodsite\bin\Debug\netcoreapp2.1\Broodsite.runtimeconfig.json
+C:\Users\Remmy\Desktop\Broodsite\bin\Debug\netcoreapp2.1\Broodsite.runtimeconfig.dev.json
+C:\Users\Remmy\Desktop\Broodsite\bin\Debug\netcoreapp2.1\Broodsite.dll
+C:\Users\Remmy\Desktop\Broodsite\bin\Debug\netcoreapp2.1\Broodsite.pdb
+C:\Users\Remmy\Desktop\Broodsite\obj\Debug\netcoreapp2.1\Broodsite.csprojAssemblyReference.cache
+C:\Users\Remmy\Desktop\Broodsite\obj\Debug\netcoreapp2.1\Broodsite.csproj.CoreCompileInputs.cache
+C:\Users\Remmy\Desktop\Broodsite\obj\Debug\netcoreapp2.1\Broodsite.AssemblyInfoInputs.cache
+C:\Users\Remmy\Desktop\Broodsite\obj\Debug\netcoreapp2.1\Broodsite.AssemblyInfo.cs
+C:\Users\Remmy\Desktop\Broodsite\obj\Debug\netcoreapp2.1\Broodsite.dll
+C:\Users\Remmy\Desktop\Broodsite\obj\Debug\netcoreapp2.1\Broodsite.pdb
